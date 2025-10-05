@@ -377,11 +377,12 @@ footer {
     }
 }
 
-@media (max-width: 46px) {
+@media (max-width: 46rem) {
     body {
         background-image: url('images/mega2.jpeg');
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-position: top;
     }
 }
