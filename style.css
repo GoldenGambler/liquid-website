@@ -379,10 +379,23 @@ footer {
 
 @media (max-width: 46rem) {
     body {
+        background-image: none;
+        position: relative;
+        z-index: 1;
+    }
+
+    body::before {
+        content: '';
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
         background-image: url('images/mega2.jpeg');
         background-size: contain;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-position: top;
     }
 }
