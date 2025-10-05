@@ -377,11 +377,9 @@ footer {
     }
 }
 
-@media (max-width: 46rem) {
+@media (max-width: 480px) {
     body {
         background-image: none;
-        position: relative;
-        z-index: 1;
     }
 
     body::before {
@@ -394,8 +392,8 @@ footer {
         z-index: -1;
         
         background-image: url('images/mega2.jpeg');
-        background-size: contain;
+        background-size: auto 100%;
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: center; 
     }
 }
