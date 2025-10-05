@@ -380,5 +380,7 @@ footer {
 @media (max-width: 735px) {
     body {
         background-image: url('images/mega2.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
