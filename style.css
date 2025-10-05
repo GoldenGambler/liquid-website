@@ -377,11 +377,16 @@ footer {
     }
 }
 
-@media (max-width: 735px) {
-    body {
-        background-image: url('images/mega2.jpeg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+@media (max-width: 46rem) {
+    body{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-image: url('images/mega2.jpeg');
+    background-size: fixed;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0f0c29;
+    line-height: 1.6;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
 }
